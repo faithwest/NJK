@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5f14b9542b.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+   <div id="header">
+   <div class="container">
+    <nav>
+      <img src="images/logo.png" class="logo">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+    </nav>
+    <div class="header-text">
+      <p>Software Developer</p>
+      <h1>I'm <span>Faith</span></h1>
+    </div>
+   </div>
+   </div>
+   <!-- About ---------------------------------------------------------------->
+   
+   <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/user.png">
+        </div>
+       
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I am a highly skilled software developer with a broad spectrum of expertise and a proven track record in 
+            delivering cutting-edge solutions that drive innovation and efficiency. My proficiency extends across a 
+            wide array of programming languages, including Python, Java, C++, and JavaScript, enabling me to adapt 
+            and excel in diverse technical environments.</p>
+            
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br>Web Design/mobile Apps</li>
+              <li><span>Dev Ops</span><br>Dev Ops and Deployment</li>
+              <li><span>Database</span><br>Database Management</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2024</span><br>Lead Developer at Meta</li>
+              <li><span>2023</span><br>Project Manager at Eurosavannah</li>
+              <li><span>2022</span><br>Intern at TechDaily</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2023</span><br>Certificate from Moringa</li>
+              <li><span>2022</span><br>Certificate from Michigan University</li>
+            </ul>
+          </div>
+       </div>
+     </div>
+    </div>
+  </div>
+
+  <!------------Services------------------------------------------------------->
+  <div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+  <div>
+  <i class="fa-solid fa-code fa-beat-fade"></i>
+    <h2>Web Design</h2>
+     <p>I specialize in web development, at creating interactive and 
+    user-friendly websites and web applications. 
+    </p>
+    <a href="#">Learn More</a>
+  </div>
+  <div>
+  <i class="fa-solid fa-diagram-project fa-beat-fade"></i>
+  <h2>Dev Ops and Deployment</h2>
+  <p>I specialize in web development, where 
+    I excel at creating interactive and 
+    user-friendly websites and web applications. 
+    </p>
+  <a href="#">Learn More</a>
+  </div>
+  <div>
+     <i class="fa-solid fa-mobile-button fa-beat-fade"></i>
+  <h2>App Design</h2>
+  <p>I specialize in web development, where 
+    I excel at creating interactive and 
+    user-friendly websites and web applications. 
+    </p>
+  <a href="#">Learn More</a>
+  </div>
+  </div>
+
+   <!--porfolio--------------------------------------------------------->
+   <div id="porfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <!-- <img src="images/work-1.png" alt=""> -->
+          <div class="layer">
+            <h3>Web launch</h3>
+            <p>This website connects you to the larger market audience.</p>
+            <a href="#"><i class="fa-solid fa-link fa-beat-fade"></i></i></a>
+          </div>
+        </div>
+
+        <section class="portfolio">
+          <h2>My Portfolio</h2>
+          <div class="project">
+              <img src="project1.jpg" alt="Project 1">
+              <h3>Project 1</h3>
+              <p>A brief description of your first project.</p>
+              <a href="project1.html">View Project</a>
+          </div>
+          
+          <div class="project">
+              <img src="project2.jpg" alt="Project 3">
+              <h3>Project 2</h3>
+              <p>A brief description of your third project.</p>
+              <a href="project2.html">View Project</a>
+          </div>
+          <!-- Add more project sections as needed -->
+      </section>
+     <a href="#" class="btn">See More</a>
+   </div>
+ </div>
+ <div class="portfolio-item">
+  <img src="project1.jpg" alt="Project 1">
+  <h3>Project 1</h3>
+  <p>Description of Project 1 here.</p>
+  <a href="project1-details.html">Learn More</a>
+    </div>
+
+ <!--footer------------------------------------------------------------------>
+ <footer>
+  <div class="footer-content">
+      <div class="work-list">
+          <div class="work">
+              <!-- <img src="images/work-2.png" alt=""> -->
+          </div>
+          <div class="work-list">
+              <div class="work">
+                  <!-- <img src="images/work-3.png" alt=""> -->
+                  <div class="layer">
+                      <h3>Social Media App</h3>
+                      <p>This website connects you to the larger market audience.</p>
+                      <a href="#"><i class="fa-solid fa-link fa-beat-fade"></i></a>
+                  </div>
+              </div>
+              <p>&My Webpage</p>
+              <ul>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms of Service</a></li>
+                  <li><a href="#">Contact Us</a></li>
+              </ul>
+          </div>
+      </div>
+      <div class="social-media-icons">
+          <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+          <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+          <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+          <a href="#"><img src="linkedIn-icon.png" alt="LinkedIn"></a>
+      </div>
+  </div>
+</footer>
+
+<section>
+  <h2>Contact Information</h2>
+  <p>Contact us for any inquiries </p>
+      <!-- Address information goes here -->
+  </address>
+</section>
+
+<div>
+  <h2>Contact Information</h2>
+  <p>If you have any questions or need assistance, feel free to contact us:</p>
+</div>
+
+<form action="submit_contact.php" method="post">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required><br>
+
+  <label for "message">Message:</label>
+  <textarea id="message" name="message" rows="4" required></textarea><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+<!--end footer------------------------------------------------------------------->
+   <script>
+
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link")
+        }
+        
+           for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+   </script>
+  <!--check why my code isnt workin-->
+</body>
+</html>
